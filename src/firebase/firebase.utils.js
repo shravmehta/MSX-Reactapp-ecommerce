@@ -3,14 +3,14 @@ import 'firebase/firebase-firestore';
 import 'firebase/firebase-auth';
 
 const config = {
-    apiKey: "AIzaSyC_GzLfx12gAvgBEkhfpt9dWN7Q7HbiKAg",
-    authDomain: "msx-db.firebaseapp.com",
-    databaseURL: "https://msx-db.firebaseio.com",
-    projectId: "msx-db",
-    storageBucket: "msx-db.appspot.com",
+    apiKey: "YOUR_API_KEY",
+    authDomain: "YOUR_DOMAIN_NAME",
+    databaseURL: "DB_URL",
+    projectId: "projectId",
+    storageBucket: "projectId.appspot.com",
     messagingSenderId: "738284773981",
-    appId: "1:738284773981:web:2f3419f405c08a746c23b4",
-    measurementId: "G-BEW4F821HQ"
+    appId: "APP_ID",
+    measurementId: "measurementId"
   };
 
   firebase.initializeApp(config);
