@@ -1,5 +1,4 @@
 import React from 'react';
-import './App.css';
 import { BrowserRouter, Switch, Route, Redirect} from 'react-router-dom';
 import {connect} from 'react-redux';
 
@@ -13,6 +12,8 @@ import {auth, createUserProfileDocument} from './firebase/firebase.utils';
 import {setCurrentUser} from './redux/user/user-actions';
 import {selectCurrentUser} from './redux/user/user-selector';
 import {createStructuredSelector} from 'reselect';
+
+import {GlobalStyle} from './App.styles';
 
 class App extends React.Component {
 
@@ -48,6 +49,7 @@ class App extends React.Component {
     return (
       <div>
         <BrowserRouter>
+        <GlobalStyle/>
         <Header/>
          <Switch>
            <Route exact path='/' component={HomePage}/>
