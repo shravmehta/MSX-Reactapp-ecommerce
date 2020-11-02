@@ -2,6 +2,8 @@
 MSX is a mobile-friendly E-Commerce Clothing website with features like sign-in with google and Stripe payment gateway. The entire website is developed using React.js and Sass for the frontend, Redux for the state management, and Firebase for the user
 authentication.
 
+Live Demo: https://msx-clothing.herokuapp.com/
+
 ### `Installation guide`
 
 Download the project files. <br />
